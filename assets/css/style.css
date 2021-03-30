@@ -1702,7 +1702,7 @@ section {
   transition: 0.3s;
 } */
 
-#footer .social-links  {
+#footer .social-links a {
   font-size: 18px;
   display: inline-block;
   background: rgba(255, 255, 255, 0.1);
@@ -1716,6 +1716,12 @@ section {
   height: 36px;
   transition: 0.3s;
 } 
+
+#footer .social-links img {
+  width: 85%;
+  height: 85%;
+  text-align: right;
+}
 
 #footer .social-links a:hover {
   background: rgba(255, 255, 255, 0.2);
